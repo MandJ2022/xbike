@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    background-color:  #050015;
+    box-sizing: border-box;
+}
+body {
+    min-height:  100vh;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.first {
+    text-align: center;
+}
+#mygov {
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, transparent, #ffffff21);
+}
+#mygov path:nth-child(1)
+{
+
+    animation: 3.4s ease forwards fillGreen 0.4s;
+}
+#mygov path:nth-child(2)
+{
+
+    animation: 3.4s ease forwards fillGreen 1.4s;
+}
+#mygov path:nth-child(3)
+{
+    animation: 3.4s ease forwards fillGreen 1.5s;
+}
+#mygov path:nth-child(4)
+{
+    animation: 3.4s ease forwards fillGreen 1.6s;
+}
+#mygov path:nth-child(5)
+{
+    animation: 3.4s ease forwards fillGreen 1.7s;
+}
+#mygov path:nth-child(6)
+{
+
+    animation: 3.4s ease forwards fillGreen 1.8s;
+}
+#mygov path:nth-child(7)
+{
+    animation: 3.4s ease forwards fillGreen 1.9s;
+}
+#mygov path:nth-child(8)
+{
+    animation: 3.4s ease forwards fillWhite 0.4s;
+}
+#mygov path:nth-child(9)
+{
+    animation: 3.4s ease forwards fillWhite 0.6s;
+}
+#mygov path:nth-child(10)
+{
+    animation: 3.4s ease forwards fillWhite 0.8s;
+}
+#mygov path:nth-child(11)
+{
+    animation: 3.4s ease forwards fillWhite 1s;
+}
+#mygov path:nth-child(12)
+{
+    animation: 3.4s ease forwards fillWhite 1.2s;
+}
+
+#container {
+    min-height: 100vh;
+    display: grid;
+    align-content: space-around;
+}
+.flexcontainer {
+    flex-flow: row wrap;
+    margin: 4em 1em;
+    color: white;
+    font-family: montserrat;
+    text-align: center;
+    opacity: 0;
+    transition: all 3s;
+    transform: translateX(-100%);
+    filter: blur(4px);
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    background-color: transparent;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}
+
+.flexcontainer div {
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 493px #00ccff);
+    box-shadow: inset 0px 0px 11px 0px rgb(119 119 119);
+    background-color: gainsboro;
+}
+
+.first {
+    height: 100vh;
+    align-content: space-around;
+    display: grid;
+    justify-content: space-around;
+}
+
+.third {
+    max-width: 100%;
+}
+
+section {
+    height: 100vh;
+    color: #00ccff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.one {
+    background-color: antiquewhite;
+}
+
+.two {
+    background-color: aquamarine;
+}
+
+.new {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    scrollbar-color: none;
+}
+
+p3 {
+    color: white;
+    opacity: 0%;
+    font-family: montserrat;
+    animation: 3.6s ease forwards fillAll 3.6s;
+}
+@keyframes animate
+{
+    to {
+        stroke-dashoffset:  0;
+    }
+}
+@keyframes fillWhite
+{
+    
+    to {
+        fill: #fff;
+    }
+}
+
+@keyframes fillGreen
+{
+    
+    to {
+        fill: #04f6dd;
+    }
+}
+
+@keyframes fillAll
+{
+    
+    to {
+        opacity: 100%;
+    }
+}
+
