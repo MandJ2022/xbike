@@ -15,6 +15,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
 .first {
     text-align: center;
 }
