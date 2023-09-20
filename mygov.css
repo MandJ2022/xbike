@@ -187,6 +187,7 @@ h1 {
 .container1 {
     padding: 2rem;
     background-color: #fff;
+    max-width: 100%;
 }
 
 .slider-wrapper {
