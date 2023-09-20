@@ -135,6 +135,7 @@ body::-webkit-scrollbar {
     text-align: center;
     background-image: url(vintage-bicycle-side-view-neon-lights-purple-blue-digital-art-garage-372699582\ \(1\).png);
     background-blend-mode: normal;
+    background-repeat: round;
 }
 
 .third {
