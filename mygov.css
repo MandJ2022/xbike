@@ -241,15 +241,12 @@ h1 {
 }
 
 .navbar {
-    width: 66px;
-    height: 43vh;
+    height: 10vh;
     position: fixed;
     z-index: 10;
     background: transparent;
     border-radius: 10px 10px 10px 10px;
     background: #01fbde1a;
-    animation: time ease forwards 11s;
-    top: 253px;
     box-shadow: inset 0px 0px 5px #01fbde;
 }
 
@@ -263,21 +260,15 @@ header {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     padding-top: 348px;
     background: #ffffff00;
-    animation: time ease forwards 11s;
-    height: 81vh;
 }
 
 .nav-item {
-    height: 64px;
     background: transparent;
     position: relative;
     bottom: 327px;
-    padding-top: 4px;
 }
 
 .nav-link {
