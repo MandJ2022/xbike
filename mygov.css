@@ -252,8 +252,9 @@ h1 {
 
 
 header {
-    position: relative;
-    display: contents;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .navbar-nav {
     list-style: none;
