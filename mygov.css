@@ -28,7 +28,8 @@ body::-webkit-scrollbar {
     padding: 20px;
     border-radius: 10px 0px 0px 0px;
     background-color: transparent;
-    animation: 3.4s ease forwards fillBack 0.5s ;
+    animation: 3.4s ease forwards fillBack 0.5s;
+    max-width: 100%;
 }
 #mygov path:nth-child(1)
 {
