@@ -192,7 +192,7 @@ h1 {
 
 .slider-wrapper {
     position: relative;
-    max-width: 60rem;
+    max-width: 55rem;
     margin: 0 auto;
     background: transparent;
 }
@@ -203,7 +203,7 @@ h1 {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    box-shadow: 0px 0rem 2rem 0rem #222428;
+    box-shadow: 0px 0rem 2rem 0rem #22242887;
     border-radius: 0.5rem;
     max-width: 100%;
     border: 4px double #ffffff;
