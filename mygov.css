@@ -303,6 +303,10 @@ ion-icon:hover {
     font-size: 13px;
 }
 
+.bike img {
+    width: 100%;
+}
+
 
 @keyframes animate
 {
