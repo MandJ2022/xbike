@@ -350,6 +350,10 @@ nav li:first-child {
 .menu-button {
     display: none;
 }
+
+.why {
+    text-align: center;
+}
 @media(max-width: 800px){
     .hideOnMobile{
         display: none;
