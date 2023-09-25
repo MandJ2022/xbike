@@ -241,45 +241,90 @@ h1 {
     opacity: 1;
 }
 
-.navbar {
-    height: 10vh;
-    position: fixed;
-    z-index: 10;
-    background: transparent;
-    border-radius: 10px 10px 10px 10px;
-    background: #01fbde1a;
-    box-shadow: inset 0px 0px 5px #01fbde;
-    display: none;
-}
-
-
-header {
+nav {
+    background-color: #ffffff6b;
+    list-style: none;
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 3px 3px 5px #00000026;
     flex-direction: column;
 }
-.navbar-nav {
+
+nav ul {
+    width: 100%;
+    background-color: #ffffff00;
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    text-align: center;
-    padding-top: 348px;
-    background: #ffffff00;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
 }
 
-.nav-item {
-    background: transparent;
-    position: relative;
-    bottom: 327px;
+nav li {
+    height: 50px;
+    background-color: transparent;
 }
 
-.nav-link {
-    filter: brightness(100);
-    background: transparent;
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    background-color: transparent;
     text-decoration: none;
-    height: 0;
-    display: grid;
+    display: flex;
+    align-items: center;
+    color: #00101f;
+    font-family: montserrat;
+}
+
+nav a:hover {
+    background-color: #00ccff;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #ffffff3d;
+    box-shadow: -10px 0 10px #0000001a;
+    margin: 0;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    backdrop-filter: blur(10px);
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar ionicon {
+    height: 40px;
+    color: white;
+    background: transparent;
+    width: 53px;
+    filter: drop-shadow(0px 0px 5px black);
+}
+
+#menu {
+    background-color: transparent;
+    height: 35px;
+}
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
 }
 
 ion-icon {
