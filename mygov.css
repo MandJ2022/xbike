@@ -332,6 +332,11 @@ nav li:first-child {
         display: block;
     }
 }
+@media(max-width: 600px){
+    .sidebar{
+        width: 100%;
+    }
+}
 
 ion-icon {
     height: 40px;
