@@ -302,6 +302,7 @@ nav li:first-child {
     align-items: flex-start;
     justify-content: space-evenly;
     backdrop-filter: blur(10px);
+    font-weight: 600;
 }
 
 .sidebar li {
