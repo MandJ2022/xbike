@@ -309,6 +309,14 @@ ion-icon:hover {
     width: 100%;
 }
 
+.social {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
 
 @keyframes animate
 {
