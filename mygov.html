@@ -11,42 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="mygov.css">
 </head>
-<header>
-    <nav class="navbar">
-       <ul class="navbar-nav">
-           <li class="nav-item">
-               <a href="plaXhub.html" class="nav-link">
-                   <ion-icon name="bicycle-sharp"></ion-icon>
-                   <span class="link-text">hub</span>
-               </a>
-           </li>
-           <li class="nav-item">
-               <a href="playXlobby.html" class="nav-link">
-                   <ion-icon name="construct-sharp"></ion-icon>
-                   <span class="link-text">lobby</span>
-               </a>
-           </li>
-           <li class="nav-item">
-               <a href="playXmarket.html" class="nav-link">
-                   <ion-icon name="storefront-outline"></ion-icon>
-                   <span class="link-text">market</span>
-               </a>
-           </li>
-           <li class="nav-item">
-               <a href="#" class="nav-link">
-                   <ion-icon name="settings-outline"></ion-icon>
-                   <span class="link-text">settings</span>
-               </a>
-           </li>
-           <li class="nav-item">
-               <a href="#" class="nav-link">
-                   <ion-icon name="help-circle-outline"></ion-icon>
-                   <span class="link-text">about</span>
-               </a>
-           </li>
-       </ul>
-   </nav>
-</header>
+<nav>
+    <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><svg id="menu" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M320 176v-40a40 40 0 00-40-40H88a40 40 0 00-40 40v240a40 40 0 0040 40h192a40 40 0 0040-40v-40M384 176l80 80-80 80M191 256h273" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></a></li>
+        <li><a href="#">garage</a></li>
+        <li><a href="#">marketplace</a></li>
+        <li><a href="#">contact</a></li>
+    </ul>
+    <ul>
+        <li><a href="#">xVELO</a></li>
+        <li class="hideOnMobile"><a href="#">garage</a></li>
+        <li class="hideOnMobile"><a href="#">marketplace</a></li>
+        <li class="hideOnMobile"><a href="#">contact</a></li>
+        <li onclick=showSidebar()><a href="#"><svg id="menu" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"/></svg></a></li>
+    </ul>
+</nav>
 <body>
     <div class="first">
 
