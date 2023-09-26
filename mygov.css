@@ -184,6 +184,19 @@ p4 {
     justify-content: center;
     font-size: 5rem;
     padding: 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.why {
+    text-align: center;
+}
+
+h4 {
+    background-color: transparent;
+    font-weight: 100;
+    font-size: 40px;
 }
 
 h1 {
