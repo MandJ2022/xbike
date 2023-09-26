@@ -216,7 +216,7 @@ h1 {
 
 .slider-wrapper {
     position: relative;
-    max-width: 55rem;
+    max-width: 80%;
     margin: 0 auto;
     background: transparent;
 }
