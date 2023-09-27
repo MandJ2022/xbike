@@ -206,6 +206,7 @@ h1 {
 
 .garage img {
     width: 100%;
+    border-top: 1px solid white;
 }
 
 .container1 {
@@ -362,6 +363,10 @@ nav li:first-child {
 
 .why {
     text-align: center;
+}
+
+.garage{
+    background-color: white;
 }
 @media(max-width: 800px){
     .hideOnMobile{
