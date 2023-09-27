@@ -142,9 +142,10 @@ section {
     height: 100vh;
     color: #00ccff;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: baseline;
     scroll-snap-align: start;
+    flex-direction: column-reverse;
 }
 .one {
     background-color: antiquewhite;
@@ -210,14 +211,13 @@ h1 {
 }
 
 .container1 {
-    padding: 2rem;
+    padding: 1rem;
     background-color: #fff;
     max-width: 100%;
 }
 
 .slider-wrapper {
     position: relative;
-    max-width: 80%;
     margin: 0 auto;
     background: transparent;
 }
