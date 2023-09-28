@@ -150,7 +150,7 @@ p4 {
     display: flex;
     justify-content: center;
     font-size: 5rem;
-    padding: 20px;
+    padding: 50px;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
@@ -194,7 +194,7 @@ h1 {
 
 .slider {
     display: flex;
-    aspect-ratio: auto 4 / 3;
+    aspect-ratio: auto 16 / 9;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
