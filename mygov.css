@@ -379,6 +379,11 @@ ion-icon:hover {
     width: 100%;
 }
 
+.market img {
+    max-width: 100%;
+    transform: scaleX(0.8)scaleY(0.8);
+}
+
 .social {
     display: flex;
     flex-direction: row-reverse;
