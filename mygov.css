@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
 }
 
 #mygov {
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px 0px 0px 0px;
     background-color: transparent;
     animation: 3.4s ease forwards fillBack 0.5s;
@@ -29,54 +29,24 @@ body::-webkit-scrollbar {
 }
 #mygov path:nth-child(1)
 {
-
     animation: 3.4s ease forwards fillGreen 0.4s;
 }
 #mygov path:nth-child(2)
 {
 
-    animation: 3.4s ease forwards fillGreen 1.4s;
+    animation: 3.4s ease forwards fillWhite 1.4s;
 }
 #mygov path:nth-child(3)
 {
-    animation: 3.4s ease forwards fillGreen 1.5s;
+    animation: 3.4s ease forwards fillWhite 1.6s;
 }
 #mygov path:nth-child(4)
 {
-    animation: 3.4s ease forwards fillGreen 1.6s;
+    animation: 3.4s ease forwards fillWhite 1.8s;
 }
 #mygov path:nth-child(5)
 {
-    animation: 3.4s ease forwards fillGreen 1.7s;
-}
-#mygov path:nth-child(6)
-{
-
-    animation: 3.4s ease forwards fillGreen 1.8s;
-}
-#mygov path:nth-child(7)
-{
-    animation: 3.4s ease forwards fillGreen 1.9s;
-}
-#mygov path:nth-child(8)
-{
-    animation: 3.4s ease forwards fillWhite 0.4s;
-}
-#mygov path:nth-child(9)
-{
-    animation: 3.4s ease forwards fillWhite 0.6s;
-}
-#mygov path:nth-child(10)
-{
-    animation: 3.4s ease forwards fillWhite 0.8s;
-}
-#mygov path:nth-child(11)
-{
-    animation: 3.4s ease forwards fillWhite 1s;
-}
-#mygov path:nth-child(12)
-{
-    animation: 3.4s ease forwards fillWhite 1.2s;
+    animation: 3.4s ease forwards fillWhite 2s;
 }
 
 #container {
